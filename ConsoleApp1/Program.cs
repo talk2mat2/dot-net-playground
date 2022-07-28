@@ -25,6 +25,7 @@ namespace ConsoleApp1
         public static void Main()
         {
             Database dbConn = new Database();
+            dbConn.fetch();
            items.sayBoys();
             Pussy psy = new Pussy();
             int[] newArr = {};
